@@ -5,6 +5,10 @@ function touchp() {
   mkdir -p "$(dirname "$1")/" && touch "$1"
 }
 
+function gac() {
+  git add . && git commit -m "$@"
+}
+
 # Display Git Branch in Terminal
 git_branch() {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
