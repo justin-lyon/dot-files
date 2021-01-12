@@ -2,7 +2,7 @@
 
 # Custom Aliases
 function touchp() {
-  /bin/mkdir -p "$(dirname "$1")/" && /usr/bin/touch "$1"
+  mkdir -p "$(dirname "$1")/" && touch "$1"
 }
 
 # Display Git Branch in Terminal

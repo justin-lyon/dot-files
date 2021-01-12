@@ -4,10 +4,10 @@ Justin's config files for various tools and environments.
 
 ## .bashrc
 
- * Colorize your bash terminal
- * display git branch in terminal
- * `touchp` alias
+ * Define `touchp` alias
+ * Display git branch in terminal
+ * Colorize Terminal with ANSI
 
 ## .ssh/config
 
- * Create shortcuts for common `ssh` commands, by host and key-pair.
+ * Define shortcuts for common `ssh` commands, by host and key-pair.
